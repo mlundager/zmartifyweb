@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: zmartifyweb
+  host: zmartifyweb
+  disk_quota: 1024M
+  services:
+  - zmartifyweb-ibm-iot-for-electronics
+  - availability-monitoring-auto
+  - Cloudant NoSQL DB-zmartifyweb
